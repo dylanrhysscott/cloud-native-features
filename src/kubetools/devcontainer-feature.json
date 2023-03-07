@@ -1,0 +1,10 @@
+{
+    "name": "Kubetools",
+    "id": "kubetools",
+    "version": "0.9.4",
+    "description": "A feature for providing Kubernetes tooling",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
