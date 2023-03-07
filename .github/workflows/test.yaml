@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - terraform
+          - packer
         baseImage:
           - golang:buster
     steps:
@@ -32,6 +33,7 @@ jobs:
       matrix:
         features:
           - terraform
+          - packer
     steps:
       - uses: actions/checkout@v3
 
