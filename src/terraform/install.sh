@@ -8,4 +8,3 @@ unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 chmod +x terraform
 mv terraform /usr/bin
 rm -rf *.zip
-terraform -help

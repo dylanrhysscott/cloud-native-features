@@ -38,7 +38,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "execute command" bash -c "hello | grep 'hey, $(whoami)!'"
+check "execute command" bash -c "terraform | terraform -help"
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
